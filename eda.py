@@ -35,5 +35,7 @@ def run():
     fig = px.scatter(data, x = 'ValueEUR', y ='Overall', hover_data = ['Name', 'Age'])
     st.plotly_chart(fig)
 
+#t
+
 if __name__ == "__main__":
     run()
